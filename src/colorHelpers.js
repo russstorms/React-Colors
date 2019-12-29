@@ -14,12 +14,12 @@ function generatePalette(starterPalette) {
     newPalette.colors[level] = [];
   }
 
-  for (let color of starterPalette) {
+  for (let color of starterPalette.colors) {
     let scale = getScale(color.color, 10).reverse();
     for (let i in scale) {
       newPalette.colors[levels[i]].push({
         name: `${color.name} ${levels[i]}`,
-        id: color.name.toLowerCase.replace(/ /g, "-"),
+        id: color.name.toLowerCase().replace(/ /g, "-"),
         hex: scale[i],
         rgb: chroma(scale[i]).css(),
         rgba: chroma(scale[i])
