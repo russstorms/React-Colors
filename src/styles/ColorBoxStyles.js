@@ -1,5 +1,4 @@
 import chroma from "chroma-js";
-
 export default {
   ColorBox: {
     width: "20%",
@@ -58,35 +57,35 @@ export default {
   },
   boxContent: {
     position: "absolute",
-    padding: "10px",
     width: "100%",
     left: "0px",
     bottom: "0px",
+    padding: "10px",
     color: "black",
     letterSpacing: "1px",
     textTransform: "uppercase",
-    fontSize: "12px",
+    fontSize: "12px"
   },
   copyOverlay: {
     opacity: "0",
     zIndex: "0",
-    height: "100%",
     width: "100%",
+    height: "100%",
     transition: "transform 0.6s ease-in-out",
-    transform: "scale(0.1)",
+    transform: "scale(0.1)"
   },
   showOverlay: {
     opacity: "1",
     transform: "scale(50)",
     zIndex: "10",
-    position: "absolute",
+    position: "absolute"
   },
   copyMessage: {
     position: "fixed",
-    top: "0",
-    right: "0",
-    bottom: "0",
     left: "0",
+    right: "0",
+    top: "0",
+    bottom: "0",
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
@@ -103,11 +102,11 @@ export default {
       textAlign: "center",
       marginBottom: "0",
       padding: "1rem",
-      textTransform: "uppercase",
+      textTransform: "uppercase"
     },
     "& p": {
       fontSize: "2rem",
-      fontWeight: "100",
+      fontWeight: "100"
     }
   },
   showMessage: {
@@ -115,6 +114,6 @@ export default {
     transform: "scale(1)",
     zIndex: "25",
     transition: "all 0.4s ease-in-out",
-    transitionDelay: "0.3s",
+    transitionDelay: "0.3s"
   }
 };

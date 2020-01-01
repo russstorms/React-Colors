@@ -3,7 +3,7 @@ export default {
     display: "flex",
     alignItems: "center",
     justifyContent: "flex-start",
-    height: "6vh",
+    height: "6vh"
   },
   logo: {
     marginRight: "15px",
@@ -16,7 +16,7 @@ export default {
     alignItems: "center",
     "& a": {
       textDecoration: "none",
-      color: "black",
+      color: "black"
     }
   },
   slider: {
@@ -27,9 +27,9 @@ export default {
       backgroundColor: "transparent"
     },
     "& .rc-slider-rail": {
-      height: "8px;"
+      height: "8px"
     },
-    "& .rc-slider-handle, .rc-slider-handle:active, .rc-slider-handle:focus, .rc-slider-handle:hover": {
+    "& .rc-slider-handle, .rc-slider-handle:active, .rc-slider-handle:focus,.rc-slider-handle:hover": {
       backgroundColor: "green",
       outline: "none",
       border: "2px solid green",
@@ -37,11 +37,11 @@ export default {
       width: "13px",
       height: "13px",
       marginLeft: "-7px",
-      marginTop: "-3px",
-    },
-    selectContainer: {
-      marginLeft: "auto",
-      marginRight: "1rem"
+      marginTop: "-3px"
     }
+  },
+  selectContainer: {
+    marginLeft: "auto",
+    marginRight: "1rem"
   }
-}
+};
